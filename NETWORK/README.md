@@ -51,3 +51,12 @@ Les fonctions disponibles dans ce module sont les suivantes :
 + `gethostname()` : Renvoie le nom d'hôte local.
 + `gethostbyname(hostname)` : Renvoie l'adresse IP correspondant à un nom d'hôte donné.
 + `gethostbyaddr(ip_address)` : Renvoie le nom d'hôte correspondant à une adresse IP donnée.
+
+## Module `urequests`
+
+Le module urequests de MicroPython permet d'effectuer des requêtes HTTP simples à partir de cartes de développement telles que le Raspberry Pi Pico. Il est basé sur le module requests de Python et prend en charge les méthodes GET, POST, PUT et DELETE pour communiquer avec des serveurs Web. Les fonctions principales du module urequests sont :
+
++ `urequests.get()` : envoie une requête GET à l'URL spécifiée et retourne la réponse sous forme de texte.
++ `urequests.post()` : envoie une requête POST à l'URL spécifiée avec les données (payload) fournies et retourne la réponse sous forme de texte.
++ `urequests.put()` : envoie une requête PUT à l'URL spécifiée avec les données (payload) fournies et retourne la réponse sous forme de texte.
++ `urequests.delete()` : envoie une requête DELETE à l'URL spécifiée et retourne la réponse sous forme de texte.

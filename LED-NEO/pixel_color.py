@@ -5,7 +5,7 @@ import machine
 from neopixel import NeoPixel
 import time
 
-np = NeoPixel(machine.Pin(4), 8)
+np = NeoPixel(machine.Pin(16), 8)
 
 def demo(np):
     n = np.n

@@ -44,4 +44,4 @@ while True:
     d.setCursor(0, 1)
     d.print(str(dht11.humidity()))
     d.print(chr(0))
-    sleep(0.5)
+    sleep(2)
