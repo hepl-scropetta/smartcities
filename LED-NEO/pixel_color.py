@@ -5,7 +5,7 @@ import machine
 from neopixel import NeoPixel
 import time
 
-np = NeoPixel(machine.Pin(16), 8)
+np = NeoPixel(machine.Pin(18), 20)
 
 def demo(np):
     n = np.n
@@ -46,4 +46,6 @@ def demo(np):
 
 
 while True:
-    demo(np)
+    np.fill((255,0,0))
+    np.write()
+    #demo(np)

@@ -26,7 +26,7 @@ dis.create_char(0,degreChar)
 
 wlan = network.WLAN(network.STA_IF)
 wlan.active(True)
-wlan.connect('Proximus-Home-FDF0', 'wzmjcra6xhaea')
+wlan.connect("WiFi-2.4-B4E5","185E23AC26")
 
 while not wlan.isconnected() and wlan.status() >= 0:
     print("Waiting to connect:")
