@@ -60,7 +60,8 @@ if filename not in os.listdir():
 # Network setup
 wlan = network.WLAN(network.STA_IF)
 wlan.active(True)
-wlan.connect("electroProjectWifi", "M13#MRSE")
+# wlan.connect("electroProjectWifi", "M13#MRSE")
+wlan.connect("WiFi-2.4-B4E5","185E23AC26")
 while not wlan.isconnected():
     pass  
 
